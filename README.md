@@ -19,12 +19,19 @@ cd Sorting_Algo/
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
+pip install maturin
 ```
 
 
+3. **FOR CUSTOM PROJECT (otherwise ignore) Setup dependencies**
+   
+```
+pip install maturin
+maturin init
+```
 
-3. **Compile Rust for Python**:
-# Use --release flag for actual performance testing!
+4. **Compile Rust for Python**:
+### Use --release flag for actual performance testing!
 ```bash
 maturin develop --release
 
@@ -34,7 +41,9 @@ maturin develop --release
 
 ## Running the Benchmark
 Setup one billion different random integers
-```python3 dataset.py```
+```python
+python3 dataset.py
+```
 
 Execute different algorithms using the command line arguments:
 
