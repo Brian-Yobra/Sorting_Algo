@@ -12,6 +12,7 @@ A project exploring the performance gap betwee, **C-optimized Python (Timsort)**
 1. **Clone the project** and navigate to the directory.
 ```bash
 git clone https://github.com/Brian-Yobra/Sorting_Algo/
+cd Sorting_Algo/
 ```
 
 2. **Setup Virtual Environment**:
